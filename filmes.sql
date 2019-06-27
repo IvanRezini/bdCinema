@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS filmes (
+  `idFilmes` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `Nome` VARCHAR(45) NULL,
+  `linkTrailler` VARCHAR(45) NULL,
+  PRIMARY KEY (`idFilmes`));
